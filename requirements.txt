@@ -3,4 +3,4 @@ pandas
 numpy
 seaborn
 matplotlib
-from statsmodels.graphics.factorplots import interaction_plot
+statsmodels

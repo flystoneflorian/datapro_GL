@@ -1,15 +1,10 @@
 import streamlit as st
 import pandas as pd
-import numpy as np
 import sqlite3
 import seaborn as sns
 import matplotlib.pyplot as plt
 
 from statsmodels.graphics.factorplots import interaction_plot
-from   statsmodels.compat.python      import lrange
-from   statsmodels.graphics.plottools import rainbow
-from   scipy.stats import norm
-from   scipy.stats import sem
 
 # Configurer la page
 st.set_page_config(page_title="Tableau de bord GoldenLine", layout="wide")
