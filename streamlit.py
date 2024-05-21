@@ -4,9 +4,7 @@ import numpy as np
 import sqlite3
 import seaborn as sns
 import matplotlib.pyplot as plt
-import os
 
-import statsmodels.graphics.utils     as     utils
 from statsmodels.graphics.factorplots import interaction_plot
 from   statsmodels.compat.python      import lrange
 from   statsmodels.graphics.plottools import rainbow
