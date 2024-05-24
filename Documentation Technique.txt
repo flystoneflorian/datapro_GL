@@ -1,0 +1,27 @@
+Documentation Technique
+Sécurité :
+
+Authentification :
+
+Les utilisateurs doivent fournir un identifiant et un mot de passe pour accéder à l'application.
+Utilisation de check_credentials pour vérifier les identifiants contre les valeurs par défaut.
+Protection des Données :
+
+Les données sont stockées dans une base de données SQLite, avec accès contrôlé par le système de fichiers.
+Assurer que les connexions à la base de données sont correctement fermées après utilisation pour éviter les fuites de mémoire.
+Prévention des injections SQL :
+
+Utilisation de l'API pandas pour interagir avec la base de données SQLite, ce qui aide à prévenir les injections SQL.
+Évolutions Futures :
+
+Gestion des utilisateurs :
+
+Implémenter un système de gestion des utilisateurs avec des rôles et des permissions.
+Stocker les identifiants et les mots de passe des utilisateurs dans une table sécurisée avec des mots de passe hachés.
+Fonctionnalités supplémentaires :
+
+Ajouter des fonctionnalités pour analyser les données de dépenses, telles que des graphiques et des rapports personnalisables.
+Implémenter des notifications pour alerter les utilisateurs des dépenses inhabituelles ou des anomalies détectées.
+Scalabilité :
+
+Migrer vers une base de données plus robuste (comme PostgreSQL ou MySQL) si le volume de données augmente.
