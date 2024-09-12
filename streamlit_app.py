@@ -20,7 +20,7 @@ if not st.session_state.logged_in:
     if st.button("Se connecter"):
         if check_credentials(username, password):
             st.session_state.logged_in = True
-            #st.experimental_rerun()
+            st.experimental_rerun()
         else:
             st.error("Identifiant ou mot de passe incorrect")
 else:
